@@ -48,6 +48,9 @@ public class Evento {
     public int getPostiPrenotati() {
         return postiPrenotati;
     }
+    public int getPostiDisponibili() {
+        return postiTotali - postiPrenotati;
+    }
     
 //    Aggiunte
 

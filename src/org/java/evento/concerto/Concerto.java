@@ -12,7 +12,6 @@ public class Concerto extends Evento {
 
     public Concerto(String titolo, LocalDate data, int postiTotali, LocalTime ora, BigDecimal prezzo) throws Exception {
         super(titolo, data, postiTotali);
-      
         setOra(ora);
         setPrezzo(prezzo);
        
